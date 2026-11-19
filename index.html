@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover everyday essentials and modern streetwear at THREADS & CO.">
+  <title>THREADS & CO. | Everyday, Elevated</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">FREE SHIPPING ON ORDERS OVER ₱1,500</div>
+  <header class="site-header">
+    <a class="logo" href="#home">THREADS<span>&</span>CO.</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a><a href="#shop">Shop</a><a href="#story">Our Story</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-button" id="cartToggle" aria-label="Open shopping cart">Bag <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">THE NEW EVERYDAY</p>
+        <h1>Wear your<br><em>own story.</em></h1>
+        <p class="hero-description">Thoughtful essentials. Easy silhouettes. Pieces made to move with you.</p>
+        <a class="button button-dark" href="#shop">Explore collection <span>↗</span></a>
+      </div>
+      <div class="hero-image" role="img" aria-label="Fashion editorial featuring neutral streetwear">
+        <div class="image-note">NEW SEASON<br><strong>01 / 2026</strong></div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div><span>01</span><p>Everyday comfort</p></div>
+      <div><span>02</span><p>Easy-to-style pieces</p></div>
+      <div><span>03</span><p>Made for your rhythm</p></div>
+    </section>
+
+    <section class="shop-section section-wrap" id="shop">
+      <div class="section-heading">
+        <div><p class="eyebrow">CURATED FOR YOU</p><h2>Latest pieces</h2></div>
+        <p>Find your next everyday favorite.</p>
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-category="All">All pieces</button>
+        <button class="filter" data-category="Tops">Tops</button>
+        <button class="filter" data-category="Bottoms">Bottoms</button>
+        <button class="filter" data-category="Accessories">Accessories</button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="story section-wrap" id="story">
+      <div class="story-image" role="img" aria-label="Minimal neutral fashion collection"></div>
+      <div class="story-copy">
+        <p class="eyebrow">A LITTLE ABOUT US</p>
+        <h2>Less noise.<br><em>More you.</em></h2>
+        <p>THREADS & CO. is a concept clothing label built around versatile pieces and personal style. We believe getting dressed should feel simple, comfortable, and completely yours.</p>
+        <a class="text-link" href="#contact">Get in touch ↗</a>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <p class="eyebrow">STAY IN THE LOOP</p>
+      <h2>Good things are<br>coming your way.</h2>
+      <p>Follow along for new drops, styling ideas, and store updates.</p>
+      <a class="button button-light" href="#contact">Connect with us</a>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div><a class="logo footer-logo" href="#home">THREADS<span>&</span>CO.</a><p>Everyday, elevated.</p></div>
+    <div class="footer-contact"><p class="eyebrow">LET'S CONNECT</p><a id="contactLink" href="https://wa.me/639000000000" target="_blank" rel="noopener">Message us on WhatsApp ↗</a><p class="small">Replace this demo number with your store's WhatsApp number.</p></div>
+    <div class="copyright">© <span id="year"></span> THREADS & CO. Demo store. All rights reserved.</div>
+  </footer>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-head"><h2>Your bag</h2><button id="closeCart" aria-label="Close cart">✕</button></div>
+    <div id="cartItems" class="cart-items"><p class="empty-cart">Your bag is waiting for something good.</p></div>
+    <div class="cart-bottom"><div class="total-row"><span>Subtotal</span><strong id="cartTotal">₱0</strong></div><button class="button button-dark checkout" id="checkoutButton">Order via WhatsApp ↗</button><p class="small">Demo checkout: confirm stock, delivery, and payment directly with the store.</p></div>
+  </aside>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
