@@ -1,14 +1,72 @@
 // Demo products: replace names, prices, and photo links with your own store inventory.
+
 const products = [
-  {id:1,name:"The Everyday Tee",category:"Tops",price:499,tag:"BESTSELLER",image:"https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=85"},
-  {id:2,name:"Relaxed Linen Shirt",category:"Tops",price:899,tag:"NEW",image:"https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=700&q=85"},
-  {id:3,name:"Classic Straight Pants",category:"Bottoms",price:1099,tag:"",image:"https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=700&q=85"},
-  {id:4,name:"Weekend Denim",category:"Bottoms",price:1299,tag:"POPULAR",image:"https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=700&q=85"},
-  {id:5,name:"Everyday Tote",category:"Accessories",price:399,tag:"",image:"https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=700&q=85"},
-  {id:6,name:"Minimal Cap",category:"Accessories",price:349,tag:"NEW",image:"https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=700&q=85"},
-  {id:7,name:"Essential Hoodie",category:"Tops",price:1199,tag:"",image:"https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=700&q=85"},
-  {id:8,name:"Utility Shorts",category:"Bottoms",price:799,tag:"",image:"https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=700&q=85"}
+  {
+    id: 1,
+    name: "Essential Oversized Tee",
+    category: "Tops",
+    price: 499,
+    tag: "BESTSELLER",
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=85"
+  },
+  {
+    id: 2,
+    name: "Relaxed Linen Shirt",
+    category: "Tops",
+    price: 899,
+    tag: "NEW",
+    image: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=900&q=85"
+  },
+  {
+    id: 3,
+    name: "Classic Straight Pants",
+    category: "Bottoms",
+    price: 1099,
+    tag: "",
+    image: "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=900&q=85"
+  },
+  {
+    id: 4,
+    name: "Weekend Denim",
+    category: "Bottoms",
+    price: 1299,
+    tag: "POPULAR",
+    image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=900&q=85"
+  },
+  {
+    id: 5,
+    name: "Everyday Tote Bag",
+    category: "Accessories",
+    price: 399,
+    tag: "",
+    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=85"
+  },
+  {
+    id: 6,
+    name: "Minimal Cap",
+    category: "Accessories",
+    price: 349,
+    tag: "NEW",
+    image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=900&q=85"
+  },
+  {
+    id: 7,
+    name: "Essential Hoodie",
+    category: "Tops",
+    price: 1199,
+    tag: "",
+    image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85"
+  },
+  {
+    id: 8,
+    name: "Utility Shorts",
+    category: "Bottoms",
+    price: 799,
+    tag: "",
+    image: "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=900&q=85"
+  }
 ];
+
 
 // IMPORTANT: Replace with the store owner's WhatsApp number, digits only, including country code.
 const STORE_WHATSAPP = "639000000000";
